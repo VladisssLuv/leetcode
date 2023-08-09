@@ -1,0 +1,6 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/cppSolutions/cppSolutions/.vs/cppSolutions
+/cppSolutions/cppSolutions/x64/Debug
