@@ -1,9 +1,5 @@
 package easy
 
-import java.util.LinkedList
-import java.util.Queue
-import java.util.Stack
-
 class ReverseLinkedList {
     class ListNode(var `val`: Int) {
         var next: ListNode? = null
