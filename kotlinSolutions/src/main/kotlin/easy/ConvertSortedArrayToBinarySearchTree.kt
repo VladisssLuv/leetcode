@@ -9,8 +9,6 @@ class ConvertSortedArrayToBinarySearchTree {
 
     fun sortedArrayToBST(nums: IntArray): TreeNode? {
         val centerPointer: Int =  nums.size / 2
-        var rightPartPointer: Int = nums.size - 1
-        val leftPartPointer: Int = centerPointer - 1
         root = TreeNode(nums[centerPointer])
 
         helper(0, centerPointer - 1, nums)
